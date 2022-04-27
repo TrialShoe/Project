@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+  <link href="../CSS/Prueba1.css" rel="stylesheet">
 
-You can use the [editor on GitHub](https://github.com/TrialShoe/Project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TrialShoe/Project/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  <head class="head">
+    <title>Track and Field</title>
+    <body>
+    <nav class="navbar">
+      <img id="logo" src="https://cdn-icons-png.flaticon.com/512/1576/1576746.png">
+      <p class="texto_navbar">Pistas</p>
+      <a class="texto_navbar" href="Clavos.html">Clavos</a>
+      <p class="texto_navbar">Proteína</p>
+    </nav>
+    <h1 class="titulo">Track and Field</h1>
+    <div class="rectangulo">
+      <div class="padre">
+        <div class="cuadrados">
+          <p class="cuadrado1">Pistas</p>
+          <a class="cuadrado2" href="Clavos.html">Clavos</a> 
+          <p class="cuadrado3">Proteína</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</head>
+</html>
