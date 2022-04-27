@@ -1,0 +1,67 @@
+html{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#titulo{
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+}
+
+.cuadrado{
+    display: inline-block;
+    width: 600px;
+    height: 400px;
+    border-radius: 8px 8px 8px 8px;
+    border: 8px solid rgb(184, 160, 23);
+    box-shadow: 5px 5px 5px rgb(136, 133, 133);
+}
+
+.clavos{
+    width: 550px;
+    height: 300px;
+    position: relative;
+    left: 25px;
+}
+
+.nombre{
+    position: relative;
+    left: 15px;
+}
+
+.precio1{
+    position: relative;
+    left: 200px;
+    color: green;
+    font-family: sans-serif;
+    text-shadow: 1px 1px rgb(2, 43, 2)
+}
+
+.precio2{
+    position: relative;
+    left: 100px;
+    color: green;
+    font-family: sans-serif;
+    text-shadow: 1px 1px rgb(2, 43, 2)
+}
+
+.mercadolibre{
+    position: relative;
+    bottom: 30px;
+}
+
+.mercadolibre_logo{
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: 8px;
+    left: 8px;
+}
+
+.mercadolibre_link{
+    text-decoration: none;
+    color: gold;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+}
